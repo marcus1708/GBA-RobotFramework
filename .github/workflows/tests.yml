@@ -17,10 +17,10 @@ jobs:
     steps:
     - name: Get code
       uses: actions/checkout@v4
-    - name: Use Node.js 20
+    - name: Use Node.js 18
       uses: actions/setup-node@v3
       with:
-        node-version: 20
+        node-version: 18
         cache: 'npm'
     - name: Setup Python
       uses: actions/setup-python@v5.0.0
